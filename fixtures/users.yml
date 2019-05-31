@@ -1,0 +1,13 @@
+App\Entity\User:
+    clients{1..10}:
+      firstName: <name()>
+      lastname: <name()>
+      email: <email()>
+      pass: beautystack
+      roles: [ROLE_CLIENT]
+    pros{1..10}:
+      firstName: <name()>
+      lastname: <name()>
+      email: <email()>
+      pass: beautystack
+      roles: [ROLE_PRO]

@@ -1,0 +1,8 @@
+App\Entity\Style:
+  styles{1..10}:
+    description: <name()>
+    price: <randomFloat(2,0,200)>
+    time: <dateTime()>
+    picture: <image()>
+    tag: ['@tag1']
+    uploaded_by: '@pros1'
